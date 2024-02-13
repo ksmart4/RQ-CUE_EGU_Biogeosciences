@@ -1,7 +1,29 @@
 #Brief Project Description
-Soils collected from Jennings Woods Research Forest, property of Kent State University. 
+Soils collected from Jennings Woods Research Forest, property of Kent State University (Location Collected: Lat: 41.1789908 Lon: -81.2031001). 
 Soil Collected: Oi-horizon + Top 5 cm of A-horizon.
-Location Collected: Lat: 41.1789908 Lon: -81.2031001
 Experiment Location: Kent State University, Department of Earth Sciences.
 Experiment Type: Laboratory Soil Incubation.
 Soil Pre-treatment: Returned to lab, opened to air, allowed to dry for 2 weeks. 
+Soil Incubation Treatment: Control soils were wet with 10 ml of DI Type 1 (MilliQ) water, 
+
+#Description of Variables
+FMS_Temp:            Internal Temperature of the FoxBox Analyzer in Degrees C
+CYCLE:               Measurement Cycle Count (starts at 0).
+Bottle:              Sample Identifier in order of Measurement Cycle. (1: CO2-Free Air, 2: Bottle 1, 3: Bottle 2, 4: Bottle 3, 5: Bottle 4, 6: Bottle 5, 7: Bottle 6, 8: Bottle 7, 9: Bottle 8, 10: 5000 ppm CO2).
+DateTime:            YYYY-MM-DD HH:MM:SS format timestamps for each measurement taken. 
+CO2_Samp:            Average CO2 concentration in % of sample.
+CO2_Samp_stdv:       Standard deviation of CO2 concentration in % of sample.
+O2_Samp:             Average O2 concentration in % of sample.
+O2_Samp_stdv:        Standard deviation of O2 concentration in % of sample.
+FlowRate_Samp:       Average flow rate of FoxBox analyzer during sample measurement in ml/min.
+FlowRate_Samp_stdv:  Standard deviation of flow rate of FoxBox analyzer during sample measurement in ml/min.
+CO2_BG:              Average CO2 concentration in % of background measurement before sample. 
+CO2_BG_stdv:         Standard deviation of CO2 concentration in % of background before sample.
+O2_BG:               Average O2 concentration in % of background measurement before sample.
+O2_BG_stdv:          Standard deviation of O2 concentration in % of background before sample.
+FlowRate_BG:         Average flow rate of FoxBox analyzer during background measurement in ml/min.
+FlowRate_BG_stdv:    Standard deviation of flow rate of FoxBox analyzer during background measurement in ml/min.
+
+#Description of Data
+Measurement of sample (soil headspace gas), and background (HVAC supply air) 
+
