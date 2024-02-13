@@ -1,0 +1,7 @@
+#Brief Project Description
+Soils collected from Jennings Woods Research Forest, property of Kent State University. 
+Soil Collected: Oi-horizon + Top 5 cm of A-horizon.
+Location Collected: Lat: 41.1789908 Lon: -81.2031001
+Experiment Location: Kent State University, Department of Earth Sciences.
+Experiment Type: Laboratory Soil Incubation.
+Soil Pre-treatment: Returned to lab, opened to air, allowed to dry for 2 weeks. 
