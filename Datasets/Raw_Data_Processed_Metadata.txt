@@ -25,5 +25,8 @@ FlowRate_BG:         Average flow rate of FoxBox analyzer during background meas
 FlowRate_BG_stdv:    Standard deviation of flow rate of FoxBox analyzer during background measurement in ml/min.
 
 #Description of Data
-Measurement of sample (soil headspace gas), and background (HVAC supply air) 
+Measurement of sample (soil headspace gas), and background (HVAC supply air). This data was extracted and analyzed from raw data file output from Programmable Logic Controller. Datastream from FoxBox was streamed in through serial port and stored as string. String values were appended to Solenoid Logs and saved into a single raw data file. O2_Samp and O2_Samp_stdv have been corrected linearly to adjust background measurement to 20.95%. All Variables with "BG" in the name are here for checking data quality, and for correction.
+
+#Data Usage
+This data was then imported to excel for mass balance calculations to be carried out. 
 
