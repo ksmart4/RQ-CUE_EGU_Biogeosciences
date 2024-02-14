@@ -1,11 +1,3 @@
-#Brief Project Description
-Soils collected from Jennings Woods Research Forest, property of Kent State University (Location Collected: Lat: 41.1789908 Lon: -81.2031001). 
-Soil Collected: Oi-horizon + Top 5 cm of A-horizon.
-Experiment Location: Kent State University, Department of Earth Sciences.
-Experiment Type: Laboratory Soil Incubation.
-Soil Pre-treatment: Returned to lab, opened to air, allowed to dry for 2 weeks. 
-Soil Incubation Treatment: Control soils were wet with 10 ml of DI Type 1 (MilliQ) water, capped, and flushed with CO2-Free Air for three minutes. This was followed by the initiation of the sampling cycles. Treatment Samples were carried out similarly, but amendment was added to soil prior to addition of water. 
-
 #Description of Variables
 FMS_Temp:            Internal Temperature of the FoxBox Analyzer in Degrees C
 CYCLE:               Measurement Cycle Count (starts at 0).
