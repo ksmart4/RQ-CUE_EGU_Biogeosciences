@@ -1,0 +1,31 @@
+"Treatment","Amendment","Variable","Value","Error"
+"Unamended Controls",0,"Amended",0,0
+"Unamended Controls",0,"Respired",3.38735676,0
+"Unamended Controls",0,"Estimated Biomass Growth",0,0
+"Unamended Controls",0,"Initial Total",960.2702568,177.522
+"Unamended Controls",0,"Final Total",956.8829,177.522
+"Unamended Controls",0,"Predicted Final Total",956.8829,177.522
+"A100",40,"Amended",40,0
+"A100",40,"Respired",20.114716,0.220421
+"A100",40,"Estimated Biomass Growth",6.248409663,0
+"A100",40,"Initial Total",960.2702568,177.522
+"A100",40,"Final Total",1034.502465,177.522
+"A100",40,"Predicted Final Total",980.1555408,177.522
+"A200",80,"Amended",80,0
+"A200",80,"Respired",39.400578,0.3016411
+"A200",80,"Estimated Biomass Growth",17.94710044,0
+"A200",80,"Initial Total",960.2702568,177.522
+"A200",80,"Final Total",1024.171336,177.522
+"A200",80,"Predicted Final Total",1000.869679,177.522
+"A500",200,"Amended",200,0
+"A500",200,"Respired",117.218072,1.0774321
+"A500",200,"Estimated Biomass Growth",56.64235813,0
+"A500",200,"Initial Total",960.2702568,177.522
+"A500",200,"Final Total",1104.025612,177.522
+"A500",200,"Predicted Final Total",1043.052185,177.522
+"A1000",400,"Amended",400,0
+"A1000",400,"Respired",263.72664,1.9426621
+"A1000",400,"Estimated Biomass Growth",123.5878185,0
+"A1000",400,"Initial Total",960.2702568,177.522
+"A1000",400,"Final Total",1199.816881,177.522
+"A1000",400,"Predicted Final Total",1096.543617,177.522
