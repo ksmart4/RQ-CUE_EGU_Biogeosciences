@@ -1,0 +1,29 @@
+#Brief Project Description
+Soils collected from Jennings Woods Research Forest, property of Kent State University (Location Collected: Lat: 41.1789908 Lon: -81.2031001). 
+Soil Collected: Oi-horizon + Top 5 cm of A-horizon.
+Experiment Location: Kent State University, Department of Earth Sciences.
+Experiment Type: Laboratory Soil Incubation.
+Soil Pre-treatment: Returned to lab, opened to air, allowed to dry for 2 weeks. 
+Soil Incubation Treatment: Control soils were wet with 10 ml of DI Type 1 (MilliQ) water, capped, and flushed with CO2-Free Air for three minutes. This was followed by the initiation of the sampling cycles. Treatment Samples were carried out similarly, but amendment was added to soil prior to addition of water. 
+
+#Description of Variables
+Time: Time of measurement from start of incubation in hours.
+CO2_Produced: Moles of CO2 produced in 2 hours of incubation since last measurement (Mass Balanced).
+CO2_Error: Uncertainty on the calculated value in Moles of CO2.
+O2_Consumed: Moles of O2 consumed in 2 hours of incubation since the last measurement (Mass Balanced).
+O2_Error: Uncertainty on the calculated value in Moles of O2.
+RQ: Respiratory Quotient for each 2 hour incubation window (Mass Balanced). Calculated as (CO2_Produced / O2_Consumed)
+RQ_Error: Uncertainty propogated through calculation of RQ.
+Bottle: Sample Bottle Identifier; Incubation 1: (1:Bottle 1, 2: Bottle 2, 3: Bottle 3, 4:Bottle 4, 5: Bottle 5, 7:Bottle 7, 8: Bottle 8), Incubation 2: (9: Bottle 1, 10: Bottle 2, 11: Bottle 3, 12: Bottle 4, 13: Bottle 5, 15: Bottle 7, 16: Bottle 8)
+CUE_est: Estimate of Carbon Use Efficiency, derived from RQ-CUE relationship. Calculated with Predict.lm() in R.
+Biomass_growth_est: Calculated micromoles of C used in production of biomass. Calculated using Respiration Rate, and CUE_est.
+Cumulative_Biomass_est: Cumulative sum of Biomass production in millimoles carbon. 
+CO2: CO2 respiration per 2 hours in micromoles carbon.
+O2: O2 consumption per 2 hours in micromoles carbon. 
+Treatment: Soil treatment. (Control, 100, 200, 500, 1000)
+
+#Description of Data
+Mass Balanced respiration rates, and derived variables used in the production of plots. This data is the totality of two dataset joined together from the first incubation and the second incubation. 
+
+#Data Usage
+This dataset is partly imported from excel as mass balanced data, and partly derived and calculated in R. Dataset was saved from R. 
