@@ -26,4 +26,4 @@ Treatment: Soil treatment. (Control, 100, 200, 500, 1000)
 Mass Balanced respiration rates, and derived variables used in the production of plots. This data is the totality of two dataset joined together from the first incubation and the second incubation. 
 
 #Data Usage
-This dataset is partly imported from excel as mass balanced data, and partly derived and calculated in R. Dataset was saved from R. 
+This dataset is partly imported from excel as mass balanced data, and partly derived and calculated in R. Dataset was saved from R. Data from this file was used to produce Figues 3 and 4. 
