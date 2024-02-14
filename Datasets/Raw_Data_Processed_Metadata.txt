@@ -4,7 +4,7 @@ Soil Collected: Oi-horizon + Top 5 cm of A-horizon.
 Experiment Location: Kent State University, Department of Earth Sciences.
 Experiment Type: Laboratory Soil Incubation.
 Soil Pre-treatment: Returned to lab, opened to air, allowed to dry for 2 weeks. 
-Soil Incubation Treatment: Control soils were wet with 10 ml of DI Type 1 (MilliQ) water, 
+Soil Incubation Treatment: Control soils were wet with 10 ml of DI Type 1 (MilliQ) water, capped, and flushed with CO2-Free Air for three minutes. This was followed by the initiation of the sampling cycles. 
 
 #Description of Variables
 FMS_Temp:            Internal Temperature of the FoxBox Analyzer in Degrees C
