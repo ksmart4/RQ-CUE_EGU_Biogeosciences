@@ -7,7 +7,7 @@ Soil Pre-treatment: Returned to lab, opened to air, allowed to dry for 2 weeks.
 Soil Incubation Treatment: Control soils were wet with 10 ml of DI Type 1 (MilliQ) water, capped, and flushed with CO2-Free Air for three minutes. This was followed by the initiation of the sampling cycles. Treatment Samples were carried out similarly, but amendment was added to soil prior to addition of water.
 
 #File Descriptions
-Data which was used to produce figure 1 plot, which was derived stoichiometrically in excel and imported to R and fit with 8th order polynomial for use as RQ-CUE relationship can be found in "modelleddata.csv".
+Data which was used to produce figure 1 plot, which was derived stoichiometrically in excel and imported to R for use as RQ-CUE relationship can be found in "modelleddata.csv".
 Data which was processed from Raw Files generated from PLC and FoxBox data on incubation can be found in "Raw_Data_Processed.csv". 
 Metadata for "Raw_Data_Processed.csv" can be found in "Raw_Data_Processed_Metadata.txt".
 Data which was imported from excel into R, and generated additional variables which were used for producing Figures 3 and 4 can be found in "Processed_Gas_Dataset.csv".
