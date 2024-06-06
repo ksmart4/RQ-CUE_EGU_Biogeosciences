@@ -1,8 +1,11 @@
 #Description of Variables
-RQ_Biomass:    Cumulative sum of predicted biomass produced in millimoles carbon using the RQ-CUE relationship and measured gas observations from "Processed_Gas_Dataset.csv".
-CFE_Biomass:   Measured increase in biomass carbon using Chloroform-Fumigation Extraction method in millimoles carbon. 
-Treatment:     Soil treatments (100, 200, 500, 1000) in mg glucose.
-Bottle:        Individual Sample Identifier; Incubation 1: (3: Bottle 3, 4: Bottle 4, 5: Bottle 5, 7: Bottle 7, 8: Bottle 8), Incubation 2: (11: Bottle 3, 12: Bottle 4, 13: Bottle 5, 15: Bottle 7, 16: Bottle 8)
+Treatment:         Soil treatments (100, 200, 500, 1000) in mg glucose.
+Replication:       Number of treatment replicates used in calculation of mean values.
+Amendment:         Average mass of carbon amended to the soil in mg per bottle (+/- uncertainty).
+Respired:          Average cumulative sum of carbon dioxide respired in mg carbon per bottle (+/- uncertainty) from measured gas observations from "Processed_Gas_Dataset.csv".
+Salt Extractable:  Average measured increase in unfumigated K2SO4 extractable carbon (Final Incubated - Time 0) in mg per bottle (+/- uncertainty).
+Biomass:           Average measured increase in biomass carbon using Chloroform-Fumigation Extraction method (Final Incubated - Time 0) in mg carbon per bottle (+/- uncertainty). 
+Necromass:         Average accumulated necromass in mg carbon per bottle (+/- uncertainty), calculated as (RQ derived biomass growth - CFE measured biomass increase).
 
 #Data Usage
-This data was compiled from incubation gas data and from laboratory procedure data. Data was used to produce f05.svg in "Main/Figures".
+This data was compiled from incubation gas data and from laboratory procedure data. Data was used to produce f05.svg in "Main/Figures" and is presented as table 1.
